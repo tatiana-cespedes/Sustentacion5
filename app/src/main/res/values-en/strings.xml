@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Dabeiba Tourism</string>
+    <string name="dabeiba">Dabeiba</string>
+    <string name="lema">Dabeiba-Antioquia, City nest of peace, and doors of Uraba</string>
+    <string name="hoteles">Hotels</string>
+    <string name="dato1_granHotel">Gran Hotel</string>
+    <string name="dato2_granHotel">Address:          Career 10 No. 8-66</string>
+    <string name="dato3_granHotel">Telephone:          034-8590080</string>
+    <string name="dato1_green">Hotel Estelar Green</string>
+    <string name="dato2_green">Address:          Career 10  No. 9-52</string>
+    <string name="dato3_green">Telephone:           034-8590660</string>
+    <string name="dato1_porton">Hotel Portón de Urabá</string>
+    <string name="dato2_porton">Address:          Career 10 No. 9-49</string>
+    <string name="dato3_porton">Telephone:           034-8590372</string>
+    <string name="sitios">Tourist sites</string>
+    <string name="chibuga">Chibugá</string>
+    <string name="dato1_chibuga">Urabá road </string>
+    <string name="tunel">La Llorona tunnel</string>
+    <string name="laura">Santa Madre Laura Montoya sanctuary</string>
+    <string name="dato1_laura">Address:          Carrer 12  No. 7-12</string>
+    <string name="bares">Bars</string>
+    <string name="guachafita">La Guachafita</string>
+    <string name="dato1_guachafita">Address:          Carrer 11  No. 7-24</string>
+    <string name="sagitario">Sagitario</string>
+    <string name="dato1_sagitario">Address:          Carrer 10  No. 8-77</string>
+    <string name="gaucha">La Gaucha</string>
+    <string name="dato1_gaucha">Address:          Carrer 10  No. 8-86</string>
+    <string name="informacion">Demographic information</string>
+    <string name="dato1_info">Dabeiba is a town of Colombia, located in the west subregion of Antioquia. Its municipal head is 183km away of Medellín, capital of Antioquia. Dabeiba has an extensión of 1883km.</string>
+    <string name="dato2_info">Demography  (2015):\n\t\t\tPopulation: 23 378 hab.\n\t\t\tUrban population: 8 921\n\t\t\tRural population: 14 457</string>
+    <string name="acercade">About</string>
+    <string name="acercade1">Creator: </string>
+    <string name="acercade2">\nTatiana Céspedes Torres  \nMobile device programming \nUniversidad de Antioquia\n2016</string>
+    <string name="abierto">Open navigation drawer</string>
+    <string name="cerrado">Close navigation drawer</string>
+    <string name="inicio">Start</string>
+
+
+
+
+</resources>
