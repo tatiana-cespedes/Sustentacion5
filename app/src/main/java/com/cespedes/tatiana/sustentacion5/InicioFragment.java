@@ -7,12 +7,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class InicioFragment extends Fragment {
 
+    MapView mapView;
+    GoogleMap map;
 
     public InicioFragment() {
         // Required empty public constructor

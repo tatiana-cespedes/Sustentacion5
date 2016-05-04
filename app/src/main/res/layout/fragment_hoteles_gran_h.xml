@@ -5,53 +5,76 @@
     tools:context="com.cespedes.tatiana.sustentacion5.hoteles_granH"
     android:orientation="vertical">
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hoteles"
-        style="@style/Titulos"
-        />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
-        <ImageView
-            android:layout_marginTop="15dp"
-            android:src="@drawable/gran_hotel"
-            android:layout_width="match_parent"
-            android:layout_height="223dp"
-            android:layout_weight="2"
-            />
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:layout_gravity="center">
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/dato1_granHotel"
-                android:layout_weight="1"
-                style="@style/SubTitulos"
+                android:text="@string/hoteles"
+                style="@style/Titulos"
                 />
-            <TextView
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/dato2_granHotel"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/gran_hotel"
+                    android:layout_width="match_parent"
+                    android:layout_height="223dp"
+                    android:layout_weight="2"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dato1_granHotel"
+                        android:layout_weight="1"
+                        style="@style/SubTitulos"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dato2_granHotel"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dato3_granHotel"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/dato3_granHotel"
-                android:layout_weight="1"
-                android:gravity="center"
-                />
+                >
+                <com.google.android.gms.maps.MapView android:id="@+id/mapview"
+                    android:layout_width="300dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
+                    />
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

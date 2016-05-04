@@ -1,52 +1,75 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.cespedes.tatiana.sustentacion5.sitios_chibuga">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/sitios"
-        style="@style/Titulos"
-
-        />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-
-        >
-        <ImageView
-            android:src="@drawable/piedras_blancas"
-            android:layout_width="match_parent"
-            android:layout_height="260dp"
-            android:layout_weight="1"
-            android:layout_marginTop="55dp"
-            />
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:layout_gravity="center">
+            android:orientation="vertical">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/chibuga"
-                android:layout_weight="1"
-                style="@style/SubTitulos"
+                android:text="@string/sitios"
+                style="@style/Titulos"
+
                 />
-            <TextView
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/dato1_chibuga"
+                android:orientation="vertical"
+
+                >
+                <ImageView
+                    android:src="@drawable/piedras_blancas"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chibuga"
+                        android:layout_weight="1"
+                        style="@style/SubTitulos"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dato1_chibuga"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        />
+                    />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                />
-            />
+                >
+                <com.google.android.gms.maps.MapView android:id="@+id/mapview"
+                    android:layout_width="300dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
+                    />
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
-</FrameLayout>
+    </ScrollView>
+</LinearLayout>

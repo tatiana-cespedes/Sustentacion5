@@ -5,45 +5,70 @@
     tools:context="com.cespedes.tatiana.sustentacion5.bares_guachafita"
     android:orientation="vertical">
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/bares"
-        style="@style/Titulos"
-        />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
-        <ImageView
-            android:src="@drawable/guachafita2"
-            android:layout_width="match_parent"
-            android:layout_height="183dp"
-            android:layout_weight="1"
-            android:layout_marginTop="15dp"
-            />
+        android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:layout_gravity="center">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/guachafita"
-                android:layout_weight="1"
-                style="@style/SubTitulos"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/dato1_guachafita"
-                android:layout_weight="1"
-                android:gravity="center"
-                />
-        </LinearLayout>
-    </LinearLayout>
+            android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bares"
+                style="@style/Titulos"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:src="@drawable/guachafita2"
+                    android:layout_width="match_parent"
+                    android:layout_height="183dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="15dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/guachafita"
+                        android:layout_weight="1"
+                        style="@style/SubTitulos"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dato1_guachafita"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <com.google.android.gms.maps.MapView android:id="@+id/mapview"
+                        android:layout_width="300dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="15dp"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
